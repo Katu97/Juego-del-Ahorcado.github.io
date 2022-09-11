@@ -1,0 +1,51 @@
+.btn2{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    gap: 0px 30px;
+}
+
+.btn-nuevojuego{
+    width: 332px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    transition: 0.8s;
+}
+
+.btn-nuevojuego-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #0A3871;
+    outline: none;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.btn-desistir{
+    width: 332px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    transition: 0.8s;
+}
+
+.btn-desistir-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    outline: none;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.btn-nuevojuego:hover, .btn-desistir:hover{
+    transform: scale(1.1);
+}
